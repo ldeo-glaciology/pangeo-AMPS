@@ -49,7 +49,7 @@ Very early stages - currently just notebooks for creating and uploading zarr fil
     
     `gsutil -m rsync -r WRF_24 gs://ldeo-glaciology/AMPS/WRF_24/ > & log.txt &`
     
-    or be a little more crafty...
+    or be a little more crafty (-x to exclude a pattern)...
     
     `gsutil -m rsync -n -x "wrfout_d06*$\" . gs://ldeo-glaciology/AMPS/WRF_24/ > & log.txt &`
     
