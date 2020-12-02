@@ -9,11 +9,13 @@ In Stage 1, ldeo-glaciology will be working primarily with two AMPS domains, the
 
 ![AMPS grids](https://www2.mmm.ucar.edu/rt/amps/information/configuration/maps_2017101012/d1_colorfill_nests.png)
 
-(reminded, WRF uses a staggered grid to aid in spatial discretization, in this case the Arikawa-C grid)
-Domain 3 (currently 2.67 km) dimensions: 675 x 1035
-Domain 6 (currently 2.67 km) dimensions 651 x 570
+(reminder, WRF uses a staggered grid to aid in spatial discretization, in this case the Arikawa-C grid)
+Domain | Current Res (km) | dims
+------------ | ------------- | -------------
+Ross (d03) | 2.67 | 675 x 1035
+AP (d06) | 2.67 | 651 x 570
 
-More info on these domains can be found at Kevin's [AMPS site] (https://www2.mmm.ucar.edu/rt/amps/information/configuration/maps_2017101012/maps.html)
+More info on these domains can be found at Kevin's [AMPS site](https://www2.mmm.ucar.edu/rt/amps/information/configuration/maps_2017101012/maps.html)
 
 ---
 
