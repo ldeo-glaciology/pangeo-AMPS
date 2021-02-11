@@ -3,6 +3,21 @@
 Very early stages - currently just notebooks for creating and uploading zarr files directly to ldeo-glaciology's Google Cloud Storage bucket
 
 ---
+### AMPS grids
+
+In Stage 1, ldeo-glaciology will be working primarily with two AMPS domains, the Ross sector (domain 3) and the Antarctic Peninsula (domain 6).  We anticipate the larger pan-Antarctic domain (d02) in the near future.  
+
+![AMPS grids](https://www2.mmm.ucar.edu/rt/amps/information/configuration/maps_2017101012/d1_colorfill_nests.png)
+
+(reminder, WRF uses a staggered grid to aid in spatial discretization, in this case the Arikawa-C grid)
+Domain | Current Res (km) | dims
+------------ | ------------- | -------------
+Ross (d03) | 2.67 | 675 x 1035
+AP (d06) | 2.67 | 651 x 570
+
+More info on these domains can be found at Kevin's [AMPS site](https://www2.mmm.ucar.edu/rt/amps/information/configuration/maps_2017101012/maps.html)
+
+---
 
 ### Moving AMPS output from NCAR to the bucket
 
